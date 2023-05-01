@@ -1,0 +1,66 @@
+body {
+    background-color: #070724;
+    color: #ffffff;
+}
+
+.star-background {
+    position: absolute;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    border-bottom: 1px solid #979797;
+}
+
+.title {
+    font-size:2rem;
+    margin-left: 5px;
+}
+
+.nav-link-container {
+    margin-right: 5px;
+}
+.navbar-link {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  width: fit-content;
+  padding-right: 5px;
+}
+
+main {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    height: max-content;
+
+}
+
+.planet-img {
+    width: 50%;
+    margin: auto;
+
+}
+
+.planet-info-container {
+    width: 50%;
+}
+
+h1 { 
+    font-size: 80px;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+}
