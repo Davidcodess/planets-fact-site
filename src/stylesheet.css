@@ -1,10 +1,13 @@
 body {
     background-color: #070724;
     color: #ffffff;
+    position: relative;
+    z-index: 7;
 }
 
 .star-background {
     position: absolute;
+    z-index: auto;
 }
 
 nav {
@@ -20,6 +23,9 @@ nav {
     border-bottom: 1px solid #979797;
 }
 
+a:hover {
+    cursor: grab;
+}
 .title {
     font-size:2rem;
     margin-left: 5px;
@@ -42,25 +48,94 @@ main {
     margin: auto;
     margin-top: 100px;
     height: max-content;
+    flex-wrap: wrap;
+    
 
 }
 
 .planet-img {
     width: 50%;
     margin: auto;
+    padding: 50px;
 
 }
 
 .planet-info-container {
-    width: 50%;
+    width: 35%;
+    margin: auto;
+    margin-bottom: 100px;
 }
 
 h1 { 
     font-size: 80px;
+    margin: auto;
 }
 
 p {
     font-size: 17px;
     font-weight: 500;
     line-height: 20px;
+}
+
+.source-p {
+    font-weight: 100;
+    color: #979797;
+}
+
+.source-link {
+    color: #979797;
+}
+
+.source-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.planet-internal-content,.planet-surface-content {
+display: none;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    justify-content: space-around;
+}
+
+.planet-info-btn {
+    border: 1px solid #979797;
+    background-color: transparent;
+    color: #ffffff;
+    height: 48px;
+    margin-bottom:10px;
+    font-weight:bold;
+    text-align: left;
+    padding-left: 20px;
+    width: 100%;
+    font-size: 16px;
+}
+.planet-data-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    height: max-content;
+}
+
+.num-data {
+    border: 1px solid #979797;
+    height: 128px;
+    width: 20%;
+}
+
+h6 {
+    color: #979797;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+h2 { 
+    padding-left: 10px;
+    font-size: 1.6rem;
 }
