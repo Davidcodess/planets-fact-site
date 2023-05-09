@@ -1,13 +1,17 @@
-body {
+body{
     background-color: #070724;
     color: #ffffff;
+   
+}
+
+main {
     position: relative;
     z-index: 7;
 }
-
 .star-background {
     position: absolute;
-    z-index: auto;
+    z-index: 1;
+    height: 100%;
 }
 
 nav {
