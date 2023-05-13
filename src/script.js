@@ -1,0 +1,1 @@
+document.getElementsByClassName('planet-internal-content')[0].style.visability= "hidden";

@@ -96,9 +96,9 @@ p {
 }
 
 
-.planet-internal-content,.planet-surface-content {
+/* .planet-internal-content,.planet-surface-content {
 display: none;
-}
+} */
 
 .button-container {
     display: flex;
