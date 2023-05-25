@@ -64,10 +64,27 @@ main {
 
 }
 
+#planetinternal {
+    display: none;
+}
+
+#planetsurface {
+    display: none;
+}
+
 .planet-info-container {
     width: 35%;
     margin: auto;
     margin-bottom: 100px;
+}
+
+.active {
+    display: block;
+    background-color: #ffffff;
+}
+
+.planet.inactive {
+    display: none;
 }
 
 h1 { 
@@ -96,9 +113,6 @@ p {
 }
 
 
-/* .planet-internal-content,.planet-surface-content {
-display: none;
-} */
 
 .button-container {
     display: flex;
