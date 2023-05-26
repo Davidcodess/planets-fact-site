@@ -57,11 +57,11 @@ main {
 
 }
 
-.planet-img {
+.planetImg {
     width: 50%;
     margin: auto;
     padding: 50px;
-
+    animation: fadein 2.8s ease-in-out;
 }
 
 #planetinternal {
@@ -78,13 +78,16 @@ main {
     margin-bottom: 100px;
 }
 
-.active {
-    display: block;
-    background-color: #ffffff;
-}
 
-.planet.inactive {
-    display: none;
+@keyframes fadein {
+    
+    0% {opacity: 0;}
+ 
+    100% {opicity: 1;}
+} 
+
+.planetFact {
+    animation: fadein 2.8s ease-in-out;
 }
 
 h1 { 
@@ -161,3 +164,4 @@ h2 {
     padding-left: 10px;
     font-size: 1.6rem;
 }
+
