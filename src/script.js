@@ -36,6 +36,7 @@ function addActiveClass() {
 
         planetImg[1].style.display ="block"
         planetImg[0].style.display ="none"
+        planetImg[2].style.display = "none"
 
     })
 
@@ -44,7 +45,6 @@ function addActiveClass() {
         planetData[1].style.display = "none"
         planetData[2].style.display = "block"
 
-        planetImg[1].style.display ="block"
         planetImg[0].style.display ="none"
         planetImg[2].style.display ="block"
 
