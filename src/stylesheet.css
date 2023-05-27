@@ -5,15 +5,11 @@ body{
    
 }
 
-main {
-    position: relative;
-    z-index: 7;
-}
 .star-background {
     position: absolute;
     z-index: 1;
     height: 100%;
-    width: auto;
+    width: 100%;
 }
 
 nav {
@@ -49,9 +45,12 @@ a:hover {
 }
 
 main {
+    position: relative;
+    z-index: 7;
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: auto;
+    margin-bottom: 100px;
     margin-top: 100px;
     height: max-content;
     flex-wrap: wrap;
@@ -60,17 +59,30 @@ main {
 }
 
 .planet-img-container {
+    position: relative;
     margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content:center;
 }
+
 .planetImg {
     margin: auto;
     animation: fadein 2s ease-in-out;
 }
 
-img {
-    width:150px;
+#geologyImg.planetImg {
+    width: 155px;
+    height: 155px;
+    position: absolute;
+    top: 70%;
+    right: 35%;
 }
 
+img {
+    width: 155px;
+
+}
 #planetinternal {
     display: none;
 }
@@ -150,9 +162,10 @@ p {
 .planet-data-container {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-evenly;
+    width: 85%;
+    justify-content: space-between;
     height: max-content;
+    margin: auto;
 }
 
 .num-data {
