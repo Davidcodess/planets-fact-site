@@ -58,6 +58,11 @@ main {
 
 }
 
+section {
+    width: 45%;
+    padding: 5px;
+}
+
 .planet-img-container {
     position: relative;
     margin: auto;
@@ -68,7 +73,8 @@ main {
 
 .planetImg {
     margin: auto;
-    animation: fadein 2s ease-in-out;
+    animation: fadein 1.5s ease-in-out;
+   
 }
 
 #geologyImg.planetImg {
@@ -92,7 +98,8 @@ img {
 }
 
 .planet-info-container {
-    width: 35%;
+    float: right;
+    width: 65%;
     margin: auto;
     margin-bottom: 100px;
 }
@@ -106,7 +113,7 @@ img {
 } 
 
 .planetFact {
-    animation: fadein 2s ease-in-out;
+    animation: fadein 1.5s ease-in-out;
 }
 
 h1 { 
@@ -115,9 +122,10 @@ h1 {
 }
 
 p {
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 20px;
+    text-align: left;
 }
 
 .source-p {
@@ -143,7 +151,9 @@ p {
     justify-content: space-around;
 }
 
-.planet-info-btn {
+.planet-info-btn-mercury,.planet-info-btn-uranus,.planet-info-btn-mars,
+.planet-info-btn-jupiter,.planet-info-btn-earth,.planet-info-btn-venus,
+.planet-info-btn-saturn,.planet-info-btn-neptune {
     border: 1px solid #979797;
     background-color: transparent;
     color: #ffffff;
@@ -156,9 +166,38 @@ p {
     font-size: 16px;
 }
 
-.planet-info-btn:hover {
+.planet-info-btn-mercury:hover {
     background-color: #419EBB;
 }
+
+.planet-info-btn-earth:hover {
+    background-color: #6d2ed5;
+}
+
+.planet-info-btn-venus:hover {
+    background-color: #eda249;
+}
+
+.planet-info-btn-mars:hover {
+    background-color: #d14c32;
+}
+
+.planet-info-btn-jupiter:hover {
+    background-color: #d83a34;
+}
+
+.planet-info-btn-saturn:hover {
+    background-color: #cd5120;
+}
+
+.planet-info-btn-uranus:hover {
+    background-color: #1ec1a2;
+}
+
+.planet-info-btn-neptune:hover {
+    background-color: #2d68f0;
+}
+
 .planet-data-container {
     display: flex;
     flex-wrap: wrap;
