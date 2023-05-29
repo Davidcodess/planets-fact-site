@@ -2,6 +2,8 @@ body{
     background-color: #070724;
     color: #ffffff;
     width: auto;
+    height: 100vh;
+    overflow: hidden;
    
 }
 
@@ -61,6 +63,7 @@ main {
 section {
     width: 45%;
     padding: 5px;
+    height: 600px;
 }
 
 .planet-img-container {
@@ -98,10 +101,14 @@ img {
 }
 
 .planet-info-container {
-    float: right;
+    display: flex;
+    flex-direction: column;
     width: 65%;
     margin: auto;
     margin-bottom: 100px;
+    margin-top: 30px;
+    float: right;
+  
 }
 
 
@@ -124,8 +131,8 @@ h1 {
 p {
     font-size: 20px;
     font-weight: 500;
-    line-height: 20px;
     text-align: left;
+    line-height: 30px;
 }
 
 .source-p {
@@ -161,9 +168,9 @@ p {
     margin-bottom:10px;
     font-weight:bold;
     text-align: left;
-    padding-left: 20px;
     width: 100%;
-    font-size: 16px;
+    font-size: 17px;
+    margin-bottom: 10px;
 }
 
 .planet-info-btn-mercury:hover {
@@ -201,7 +208,7 @@ p {
 .planet-data-container {
     display: flex;
     flex-wrap: wrap;
-    width: 85%;
+    width: 75%;
     justify-content: space-between;
     height: max-content;
     margin: auto;
