@@ -27,20 +27,21 @@ nav {
     border-bottom: 1px solid #979797;
 }
 
+.navbar-link-container {
+    margin: auto;
+}
+
 a:hover {
     cursor: grab;
 }
 .title {
     font-size:2rem;
     margin-left: 5px;
+    margin: auto;
 }
 
-.nav-link-container {
-    margin-right: 5px;
-}
 .navbar-link {
-  font-size: 1rem;
-  text-decoration: none;
+    font-size: 18px;    text-decoration: none;
   color: #ffffff;
   width: fit-content;
   padding-right: 5px;
@@ -54,16 +55,15 @@ main {
     margin: auto;
     margin-bottom: 100px;
     margin-top: 100px;
-    height: max-content;
+    height: 900px;
     flex-wrap: wrap;
     
-
 }
 
 section {
     width: 45%;
     padding: 5px;
-    height: 600px;
+    height: max-content;
 }
 
 .planet-img-container {
@@ -76,7 +76,7 @@ section {
 
 .planetImg {
     margin: auto;
-    animation: fadein 1.5s ease-in-out;
+    animation: fadein .7s ease-in-out;
    
 }
 
@@ -103,12 +103,10 @@ img {
 .planet-info-container {
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 75%;
     margin: auto;
     margin-bottom: 100px;
-    margin-top: 30px;
-    float: right;
-  
+    float:right;
 }
 
 
@@ -120,12 +118,13 @@ img {
 } 
 
 .planetFact {
-    animation: fadein 1.5s ease-in-out;
+    animation: fadein .7s ease-in-out;
 }
 
 h1 { 
     font-size: 80px;
-    margin: auto;
+    margin: unset;
+    text-align: left;
 }
 
 p {
@@ -233,16 +232,90 @@ h2 {
 
 @media screen and (max-width: 768px) {
 
+    body {
+        overflow:auto;
+    }
     nav {
         margin: auto;
         text-align: center;
         align-items: center;
         justify-content: center;
+        margin-bottom: 10px;
     }
 
     .title {
         text-align: center;
         margin-bottom: 20px;
+    }
+
+    main {
+        flex-direction: column;
+        display: block;
+        margin: auto;
+        height: 700px;
+        
+    }
+
+    section {
+        margin: auto;
+        margin-top: 50px;
+        width: 90%;
+    }
+
+    .planet-info-container {
+        display: flex;
+        flex-direction: row;
+        margin: unset;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .planet-text {
+        float: left;
+        width: 45%;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 48px;
+        text-align: left;
+    }
+
+    p {
+        font-size:15px ;
+    }
+
+    .button-container {
+        width: 50%;
+        margin: auto;
+     
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        float: right;
+        margin: auto;
+
+    }
+
+    .planet-data-container {
+        width: 90%;
+
+    }
+
+    .num-data {
+        padding-bottom: 10px;
+        width: 23%;
+        height:100px;
+    }
+
+    h6 {
+
+    }
+
+    h2 {
+        font-size: 20px;
     }
 }
     

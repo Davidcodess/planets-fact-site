@@ -10,7 +10,7 @@
 </head>
 <body>
   <nav>
-    <span class="project-navbar-title">THE PLANETS</span>
+    <span class="title">THE PLANETS</span>
 
     <div class="navbar-link-container">
       <a class="navbar-link" href="./index.html">MERCURY</a>
@@ -39,59 +39,62 @@
       </div>
     </div>
 
-    <section class="planet-info-container">
-      <h1>Neptune</h1>
-      <div class="planetFact" id="planetoverview">
-          <!-- Overview Content Start -->
-        <p>
-          Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar 
-          System, it is the fourth-largest planet by diameter, the third-most-massive planet, 
-          and the densest giant planet. It is 17 times the mass of Earth, more massive than 
-          its near-twin Uranus.
-        </p>
+    <section>
 
-        <div class="source-container">
-          <p class="source-p">
-            Source :</p> 
-          <a class="source-link" href="https://en.wikipedia.org/wiki/Neptune"> Wikipedia</a>   
-         </div>
-  
-        <!-- Overview Content End -->
+    <div class="planet-info-container">
+      <div class="planet-text">
+          <h1>Neptune</h1>
+          <div class="planetFact" id="planetoverview">
+              <!-- Overview Content Start -->
+            <p>
+              Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar 
+              System, it is the fourth-largest planet by diameter, the third-most-massive planet, 
+              and the densest giant planet. It is 17 times the mass of Earth, more massive than 
+              its near-twin Uranus.
+            </p>
+
+            <div class="source-container">
+              <p class="source-p">
+                Source :</p> 
+              <a class="source-link" href="https://en.wikipedia.org/wiki/Neptune"> Wikipedia</a>   
+            </div>
+      
+            <!-- Overview Content End -->
+          </div>
+
+          <div class="planetFact" id="planetinternal">
+            <!-- Internal Structure Content Start -->
+            <p>
+              Neptune's internal structure resembles that of Uranus. Its atmosphere forms about 5% 
+              to 10% of its mass and extends perhaps 10% to 20% of the way towards the core. 
+              Increasing concentrations of methane, ammonia and water are found in the lower regions.
+            </p>
+
+            <div class="source-container">
+              <p class="source-p">
+                Source :</p> 
+              <a class="source-link" href="https://en.wikipedia.org/wiki/Neptune#Internal_structure"> Wikipedia</a>   
+            </div>
+      <!-- Internal Structure Content End -->
+          </div>
+
+          <div class="planetFact" id="planetsurface">
+      <!-- Surface Geology Content Start -->
+          <p>
+            Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also 
+            present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in 
+            the red and infrared portion of the spectrum.
+          </p>
+
+          <div class="source-container">
+            <p class="source-p">
+              Source :</p> 
+            <a class="source-link" href="https://en.wikipedia.org/wiki/Neptune#Atmosphere"> Wikipedia</a>   
+          </div>
+          <!-- Surface Geology Content End -->
+          </div>
       </div>
-
-      <div class="planetFact" id="planetinternal">
-        <!-- Internal Structure Content Start -->
-        <p>
-          Neptune's internal structure resembles that of Uranus. Its atmosphere forms about 5% 
-          to 10% of its mass and extends perhaps 10% to 20% of the way towards the core. 
-          Increasing concentrations of methane, ammonia and water are found in the lower regions.
-        </p>
-
-        <div class="source-container">
-          <p class="source-p">
-            Source :</p> 
-          <a class="source-link" href="https://en.wikipedia.org/wiki/Neptune#Internal_structure"> Wikipedia</a>   
-         </div>
-  <!-- Internal Structure Content End -->
-      </div>
-
-      <div class="planetFact" id="planetsurface">
-  <!-- Surface Geology Content Start -->
-      <p>
-        Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also 
-        present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in 
-        the red and infrared portion of the spectrum.
-      </p>
-
-      <div class="source-container">
-        <p class="source-p">
-          Source :</p> 
-        <a class="source-link" href="https://en.wikipedia.org/wiki/Neptune#Atmosphere"> Wikipedia</a>   
-       </div>
-  <!-- Surface Geology Content End -->
-      </div>
-
-      <div class="-neptune-container" >
+      <div class="button-container" >
         
         <button class="planet-info-btn-neptune" id="overviewButton" onclick="addActiveClass()">
           01  Overview
@@ -105,6 +108,7 @@
           03  Surface Geology
         </button>
       </div>
+    </div>
     </section>
 
 

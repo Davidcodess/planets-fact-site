@@ -10,7 +10,7 @@
 </head>
 <body>
   <nav>
-    <span class="project-navbar-title">THE PLANETS</span>
+    <span class="title">THE PLANETS</span>
 
     <div class="navbar-link-container">
       <a class="navbar-link" href="./index.html">MERCURY</a>
@@ -42,66 +42,69 @@
     </section>
 
 
-    <section class="planet-info-container">
-      <h1>Uranus</h1>
-      <div class="planetFact" #id="planetoverview">
-        
+    <section>
 
-        <!-- Overview Content Start -->
+    <div class="planet-info-container">
+      <div class="planet-text">
+          <h1>Uranus</h1>
+          <div class="planetFact" #id="planetoverview">
+            
+
+            <!-- Overview Content Start -->
+          
+          <p>
+            Uranus is the seventh planet from the Sun. Its name is a reference to the 
+            Greek god of the sky, Uranus according to Greek mythology, was the great-grandfather 
+            of Ares. It has the third-largest planetary radius and fourth-largest planetary 
+            mass in the Solar System.
+          </p>
+          
+          <div class="source-container">
+            <p class="source-p">
+              Source :</p> 
+            <a class="source-link" href="https://en.wikipedia.org/wiki/Uranus"> Wikipedia</a>   
+          </div>
+            <!-- Overview Content End -->
+          </div>
       
-       <p>
-        Uranus is the seventh planet from the Sun. Its name is a reference to the 
-        Greek god of the sky, Uranus according to Greek mythology, was the great-grandfather 
-        of Ares. It has the third-largest planetary radius and fourth-largest planetary 
-        mass in the Solar System.
-       </p>
-      
-       <div class="source-container">
-        <p class="source-p">
-          Source :</p> 
-        <a class="source-link" href="https://en.wikipedia.org/wiki/Uranus"> Wikipedia</a>   
-       </div>
-        <!-- Overview Content End -->
-      </div>
-  
 
-      <div class="planetFact" id="planetinternal">
-        <!-- Internal Structure Content Start -->
+          <div class="planetFact" id="planetinternal">
+            <!-- Internal Structure Content Start -->
 
-      <p>
-        The standard model of Uranus's structure is that it consists of three layers: a 
-        rocky (silicate/iron–nickel) core in the centre, an icy mantle in the middle and 
-        an outer gaseous hydrogen/helium envelope. The core is relatively small, with a 
-        mass of only 0.55 Earth masses.      
-      </p>
+          <p>
+            The standard model of Uranus's structure is that it consists of three layers: a 
+            rocky (silicate/iron–nickel) core in the centre, an icy mantle in the middle and 
+            an outer gaseous hydrogen/helium envelope. The core is relatively small, with a 
+            mass of only 0.55 Earth masses.      
+          </p>
 
-        <div class="source-container">
-          <p class="source-p">
-            Source :</p> 
-          <a class="source-link" href="https://en.wikipedia.org/wiki/Mercury_(planet)#Internal_structure"> Wikipedia</a>   
+            <div class="source-container">
+              <p class="source-p">
+                Source :</p> 
+              <a class="source-link" href="https://en.wikipedia.org/wiki/Mercury_(planet)#Internal_structure"> Wikipedia</a>   
+            </div>
+            <!-- Internal Structure Content End -->
+          </div>
+
+
+          <div class="planetFact" id="planetsurface">
+            <!-- Surface Geology Content Start -->
+
+            <p>
+              The composition of Uranus's atmosphere is different from its bulk, consisting mainly 
+              of molecular hydrogen and helium. The helium molar fraction, i.e. the number of 
+              helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.
+            </p>
+
+            <div class="source-container">
+              <p class="source-p">
+                Source :</p> 
+              <a class="source-link" href="https://en.wikipedia.org/wiki/Uranus#Atmosphere"> Wikipedia</a>   
+            </div>
+            
+            <!-- Surface Geology Content End -->
+          </div>
         </div>
-        <!-- Internal Structure Content End -->
-      </div>
-
-
-      <div class="planetFact" id="planetsurface">
-        <!-- Surface Geology Content Start -->
-
-        <p>
-          The composition of Uranus's atmosphere is different from its bulk, consisting mainly 
-          of molecular hydrogen and helium. The helium molar fraction, i.e. the number of 
-          helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.
-        </p>
-
-        <div class="source-container">
-          <p class="source-p">
-            Source :</p> 
-          <a class="source-link" href="https://en.wikipedia.org/wiki/Uranus#Atmosphere"> Wikipedia</a>   
-         </div>
-        
-        <!-- Surface Geology Content End -->
-      </div>
-
       <div class="button-container" >
         
         <button class="planet-info-btn-uranus" id="overviewButton" onclick="addActiveClass()">
@@ -116,6 +119,7 @@
           03  Surface Geology
         </button>
       </div>
+    </div>
   </section>
 
   <section class="planet-data-container">
